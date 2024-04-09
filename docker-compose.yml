@@ -3,7 +3,7 @@ services:
   your_service:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfilez
     volumes:
       - your_volume_name:/op
 
