@@ -12,8 +12,8 @@ RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing/" >> /etc/apk/reposi
     rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
 
 # Needed by scripts
-ENV OPENVPN=/etc/openvpn
-ENV EASYRSA=/usr/share/easy-rsa \
+ENV OPENVPN=/op/etc/openvpn
+ENV EASYRSA=/op/usr/share/easy-rsa \
     EASYRSA_CRL_DAYS=3650 \
     EASYRSA_PKI=$OPENVPN/pki
 
