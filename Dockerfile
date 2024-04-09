@@ -3,6 +3,12 @@
 # Smallest base image
 FROM alpine:latest
 
+# Set the working directory
+WORKDIR /op
+
+# Copy your application files into the container
+COPY . .
+
 LABEL maintainer="Kyle Manna <kyle@kylemanna.com>"
 
 # Testing: pamtester
