@@ -3,6 +3,8 @@
 # Smallest base image
 FROM alpine:latest
 
+WORKDIR /op
+
 LABEL maintainer="Kyle Manna <kyle@kylemanna.com>"
 
 # Testing: pamtester
